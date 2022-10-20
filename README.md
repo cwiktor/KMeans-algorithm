@@ -1,10 +1,9 @@
-# Algorytm-KMeans
+# KMeans-algorithm
 
-Program konsolowy klastrujący podany zbiór punktów metodą k-średnich.
+A console program that clusters a given set of points using the k-means method.
 
-Aplikacja pobiera:
-  1. data: plik w formacie CSV (oddzielonymi przecinkami), w którym każdy wiersz
-    odpowiada jednemu punktowi.
-  2. k:liczba klastrów do zdefiniowania.
+The application downloads:
+  1. date: CSV (comma separated) file with each line corresponds to one point.
+  2. k: number of clusters to be defined.
   
-Aplikacja wykonuje algorytm KMeans dla podanych danych i wypisuje numer przydzielonego klastra kolejno dla każdego wiersza wejściowego.
+The application executes the KMeans algorithm for the given data and prints the number of the allocated cluster sequentially for each input row.
